@@ -1,6 +1,7 @@
 // RACCOLTA DATI
-// Chiedere il numero all'utente
-const userNumber = parseInt(prompt("Hello user! Choose a number from 1 to 6!"));
+
+// Generare numero casuale da 1 a 6 per il giocatore
+const userNumber = Math.floor(Math.random() * 6) + 1;
 console.log(userNumber);
 
 // Generare numero casuale da 1 a 6 per il computer
